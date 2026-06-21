@@ -546,6 +546,18 @@ window.upgrades = function(game) {
 			}
 		},
 		{
+			id: 'fusion_cells',
+			type: 'experimental_cells',
+			title: 'Tritium Fusion Cells',
+			description: 'Allows you to use tritium cells.',
+			erequires: 'laboratory',
+			ecost: 50000,
+			levels: 1,
+			onclick: function(upgrade) {
+				// Nothing, just required for placing parts
+			}
+		},
+		{
 			id: 'heat_reflection',
 			type: 'experimental_parts',
 			title: 'Heat Reflection',
