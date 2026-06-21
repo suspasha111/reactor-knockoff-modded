@@ -155,6 +155,21 @@ window.parts = [
 			base_power: 1250000000000,
 			base_heat: 1250000000000
 		},
+		{
+			id: 'tritium',
+			type: 'tritium',
+			level: 1,
+			title: "Tritium Fusion Cell",
+			base_description: '%single_cell_description',
+			category: 'cell',
+			experimental: true,
+			erequires: 'fusion_cells',
+			base_cost: 9000000000000000000,
+			cost_multiplier: 10.5,
+			base_ticks: 31415926535897932384626433832795028841971693993751,
+			base_power: 93800000000000,
+			base_heat: 9653800000000
+		},
 
 		// Energy
 		{
