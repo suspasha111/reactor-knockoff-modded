@@ -841,6 +841,12 @@ menu {
 	background-image: url("../img/xcell_1_4.gif");
 }
 
+#parts_section .part.part_tritium1 .image,
+#experimental_upgrades #fusion_cells .image,
+#reactor .tile.part_tritium1 {
+	background-image: url("../img/cell_7_1.gif");
+}
+
   /* //////////////////////////
  // Reflectors
 ////////////////////////// */
