@@ -82,7 +82,7 @@ var Game = class {
 		this.upgrade_max_level = 32;
 		this.base_max_heat = 1000;
 		this.base_max_power = 100;
-		this.base_money = 31415926535897932384626433832795028841971693993751;
+		this.base_money = 10;
 		this.save_interval = 60000;
 
 		// Current
@@ -109,7 +109,7 @@ var Game = class {
 		this.auto_buy_disabled = false;
 		this.has_melted_down = false;
 		this.current_money = 0;
-		this.exotic_particles = 11111111111111111111111111111111111110;
+		this.exotic_particles = 0;
 		this.current_exotic_particles = 0;
 
 		// Displayed
