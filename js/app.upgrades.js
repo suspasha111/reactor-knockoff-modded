@@ -551,7 +551,7 @@ window.upgrades = function(game) {
 			title: 'Tritium Fusion Cells',
 			description: 'Allows you to use tritium cells.',
 			erequires: 'laboratory',
-			ecost: 50000,
+			ecost: 5000,
 			levels: 1,
 			onclick: function(upgrade) {
 				// Nothing, just required for placing parts

@@ -850,6 +850,10 @@ menu {
 #reactor .tile.part_tritium2 {
 	background-image: url("../img/cell_7_2.gif");
 }
+#parts_section .part.part_tritium3 .image,
+#reactor .tile.part_tritium3 {
+	background-image: url("../img/cell_7_4.gif");
+}
 
   /* //////////////////////////
  // Reflectors
